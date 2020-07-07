@@ -1,3 +1,5 @@
-describe "Docking_Station" do
-    expect (DockingStation).to eq(docking_station)
+require 'docking_station'
+
+describe DockingStation do
+
 end
