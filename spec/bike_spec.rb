@@ -1,8 +1,8 @@
 require 'bike'
 
 describe Bike do
-  it 'is it working' do
-  bike = Bike.new
-  expect(bike.working?).to eq true
+  describe "working?" do
+    subject { Bike.new.working? }
+      it { is_expected.to eq true }
   end
 end
